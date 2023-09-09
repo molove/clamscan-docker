@@ -1,5 +1,7 @@
 # clamscan-docker
 
+NB I removed the date of LAST_FILE_SCANNED so this image will only scan files created after the container is spun up
+
 [![Docker Pulls](https://img.shields.io/docker/pulls/abesesr/clamscan-docker.svg)](https://hub.docker.com/r/abesesr/clamscan-docker/)
 [![clamscan-docker ci](https://github.com/abes-esr/clamscan-docker/actions/workflows/build-test-pubtodockerhub.yml/badge.svg)](https://github.com/abes-esr/clamscan-docker/actions/workflows/build-test-pubtodockerhub.yml)
 
