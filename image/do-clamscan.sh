@@ -6,7 +6,7 @@ mkdir -p ${FOLDER_TO_SCAN}
 # copy not scanned files to tmp directory then scan it !
 LAST_SCANNED_FILE=/tmp/clamscan-last-scanned-file
 if [ ! -f ${LAST_SCANNED_FILE} ]; then
-  touch --date "2023-09-08" ${LAST_SCANNED_FILE}
+  touch ${LAST_SCANNED_FILE}
 fi
 rm -rf /tmp/new-files-to-scan/
 mkdir -p /tmp/new-files-to-scan/
